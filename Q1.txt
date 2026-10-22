@@ -1,0 +1,23 @@
+Write down the steps to install TypeScript and execute a TypeScript program on your computer.
+
+=> TypeScript requires 2 main components which are Node.js runtime envirnmonent  and it's package manager (npm)
+
+=> sudo apt install Node -y
+=> sudo apt install npm -y 
+
+now verify the downloaded required tools by 
+node -v && npm -v 
+
+output : 
+ node -v
+npm -v
+v18.19.1
+9.2.0
+
+
+to install tsc 
+sudo apt install node-typescript
+tsc -v
+Version 4.8.4
+
+this will verity all required tools and packages for running and executing typescript
